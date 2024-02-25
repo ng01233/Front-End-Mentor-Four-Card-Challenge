@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git hub link](https://github.com/ng01233/Front-End-Mentor-Four-Card-Challenge)
+- Live Site URL: [live solution](https://fluffy-palmier-07a490.netlify.app/)
 
 ## My process
 
