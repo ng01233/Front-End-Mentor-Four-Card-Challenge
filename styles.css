@@ -1,0 +1,116 @@
+:root{
+    --font-family: 'Poppins', sans-serif;
+    --font-size: 0.975rem;
+    --font-color-dark-blue: hsl(234, 12%, 34%);
+    --font-color-grayish: hsl(229, 6%, 66%);
+    --font-color-Lgray: hsl(0, 0%, 98%);
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--font-color-grayish);
+    background-color: var(--font-color-Lgray);
+    padding-block-end: 2rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  width: 550px;
+  margin-inline: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+    color: var(--font-color-grayish);
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+h1 > span{
+    font-weight: 600;
+    color: var(--font-color-dark-blue);
+}
+
+h2 {
+    font-weight: 600;
+    color: var(--font-color-dark-blue); 
+}
+
+.layout {
+    --gap: 2rem;
+    display:flex;
+    padding: 1em;
+    max-width: 1100px;
+    width: 90%;
+    margin-inline: auto;
+    gap: var(--gap);
+}
+
+.layout__col {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+.layout__col-column{
+    flex-direction: column;
+}
+.layout__card__img {
+    margin-top: 50px;
+    margin-left: auto;
+    display: block;
+}
+.layout__col__card {
+  background-color: #ffff;
+  border-top: 3px solid;
+  padding: 1rem;
+  box-shadow: 0px 12px 42px -10px #888888;
+  width: 100%;
+}
+
+.border__color-red {
+    border-color: hsl(0, 78%, 62%);
+}
+
+.border__color-cyan {
+    border-color: hsl(180, 62%, 55%);
+}
+
+.border__color-orange{
+    border-color: hsl(34, 97%, 64%);
+}
+
+.border-color-blue {
+    border-color: hsl(212, 86%, 64%);
+}
+@media screen and (max-width: 850px) {
+    .layout {
+        flex-direction: column;
+        width: 100%;
+        margin-inline: 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+
+
